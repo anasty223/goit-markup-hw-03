@@ -63,6 +63,7 @@ img {
 /*секция навигация*/
 .main-nav{
   display: flex;
+  align-items: baseline;
 }
 .nav {
   display: flex;
@@ -70,8 +71,7 @@ img {
 }
 .nav-container {
   display: flex;
- margin-right: 331px;
-}
+ }
 .nav-container .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -98,6 +98,7 @@ img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: auto;
  
 }
 
@@ -293,6 +294,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   margin-bottom: 20px;
+  display: block;
 }
 .logofooter {
   color: var(--whitw-color-texte);
@@ -346,7 +348,7 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-right: 8px;
+ 
   background-color: var(--secondery-backgraund);
   border: none;
   border-radius: 4px;
